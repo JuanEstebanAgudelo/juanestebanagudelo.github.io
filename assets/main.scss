@@ -1,0 +1,13 @@
+---
+---
+
+@import "minima";
+
+.social-media-list {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}

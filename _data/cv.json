@@ -1,0 +1,169 @@
+{
+    "basics": {
+        "name": "Juan Esteban Agudelo Agudelo",
+        "label": "Data Engineer & Backend Developer",
+        "image": "/assets/images/juanestebanagudeloagudelo.png",
+        "email": "juanes_filo@hotmail.com",
+        "phone": "(300) 318-3373",
+        "url": "https://juan.agudelo.com.co",
+        "summary": "Data Engineer with 8+ years of combined experience in backend development and big data systems, specializing in designing and optimizing high-volume ETL/Reverse ETL pipelines using Apache Spark. I architect scalable solutions that efficiently process 2+ TB/day, while improving the pipeline performance and reliability (between 3%-25% of time optimization and 50% in reduction of number of workers). My technical expertise in distributed systems and data infrastructure is complemented by strong collaboration skills, enabling me to work effectively across teams to translate business needs into robust technical implementations.",
+        "location": {
+            "postalCode": "054040",
+            "city": "Rionegro",
+            "countryCode": "CO",
+            "region": "Antioquia"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "juan-esteban-agudelo-agudelo",
+                "url": "https://www.linkedin.com/in/juan-esteban-agudelo-agudelo-4ab1473b/"
+            },
+            {
+                "network": "Github",
+                "url": "https://github.com/JuanEstebanAgudelo",
+                "username": "JuanEstebanAgudelo"
+            },
+            {
+                "network": "Gitlab",
+                "url": "https://gitlab.com/JuanEstebanAgudelo",
+                "username": "JuanEstebanAgudelo"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Scotia GBS",
+            "position": "Data Engineer",
+            "website": "https://www.scotiabank.com/global/es/gbscolombia.html",
+            "startDate": "2023-07",
+            "endDate": "",
+            "highlights": []
+        },
+        {
+            "company": "Nequi",
+            "position": "Data Engineer",
+            "website": "https://www.nequi.com.co/",
+            "startDate": "2023-04",
+            "endDate": "2025-07",
+            "highlights": [
+                "50+ data products design and implementation using Apache Spark processing 1+ TB daily.",
+                "Optimization of 85% in ETL processing time and 50% reduction in number of workers by design, implementation and deployment using Apache Spark.",
+                "Desing and implementation of third party data integration frameworks."
+            ]
+        },
+        {
+            "company": "Lovelytics (previous Datalytics)",
+            "position": "Data Engineer",
+            "website": "https://lovelytics.com/",
+            "startDate": "2022-08",
+            "endDate": "2023-03",
+            "highlights": []
+        },
+        {
+            "company": "Perficient",
+            "position": "Java Developer",
+            "website": "https://www.perficient.com/",
+            "startDate": "07/2021",
+            "endDate": "07/2022",
+            "highlights": []
+        },
+        {
+            "company": "Ealax",
+            "position": "Java Developer",
+            "startDate": "01/2020",
+            "endDate": "06/2021",
+            "highlights": []
+        },
+        {
+            "company": "Sapiencia",
+            "position": "Backend Developer",
+            "website": "https://sapiencia.gov.co/",
+            "startDate": "07/2019",
+            "endDate": "12/2020",
+            "highlights": [
+                "Reduction of the dead portfolio in 12% (almost COP 500 millon) by the use of a custom reporting tools."
+            ]
+        },
+        {
+            "company": "One Consultants",
+            "position": "Senior Software Developer",
+            "website": "https://www.linkedin.com/company/one-consultants-sas/",
+            "startDate": "01/2016",
+            "endDate": "05/2019",
+            "highlights": [
+                "Reduce by 25% the picking dead time by tuning WMS of a direct sell company ally (Marketing Personal)",
+                "Reduce by 20% the soldout order items by a Order prefilling of a direct sell company ally (Marketing Personal)"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "area": "Data Analytics Specialist",
+            "institution": "Politécnico Colombiano Jaime Isaza Cadavid",
+            "url": "https://www.politecnicojic.edu.co/investigacion/66-vicerrectoria-de-docencia-e-investigacion/programas-academicos/especializaciones/3657-especializacion-en-analitica-de-datos",
+            "startDate": "06/2024",
+            "endDate": "06/2025",
+            "studyType": "Specialist Degree"
+        },
+        {
+            "area": "Control Engineer",
+            "institution": "Politécnico Colombiano Jaime Isaza Cadavid",
+            "url": "https://politecnicojic.edu.co/profesionales/74-ingenieria-en-instrumentacion-y-control",
+            "startDate": "02/2008",
+            "endDate": "10/2015",
+            "studyType": "Bachelor",
+            "score": "4.2"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Microsoft Certified: Azure Fundamentals",
+            "date": "2022-04",
+            "issuer": "Microsoft",
+            "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Intermediate (B2)"
+        },
+        {
+            "language": "German",
+            "fluency": "Basic (A2)"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Native Speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Pets",
+            "keywords": [
+                "Cats"
+            ]
+        }
+    ]
+}

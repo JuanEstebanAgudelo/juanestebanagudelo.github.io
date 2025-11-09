@@ -18,34 +18,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+lang: en-US
 title: Juan Esteban Agudelo Agudelo - Data Engineer
+email: juanes_filo@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Data Engineer with 8+ years of experience as backend developer and 3+ years on big data. 
   Experienced in big data processing using Apache Spark, data architecture definition, ETL, reverse ETL.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juan.agudelo.com.co" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: Juan Esteban Agudelo Agudelo
+  picture: /assets/images/juanestebanagudeloagudelo.png
+github_username: JuanEstebanAgudelo
+logo: /assets/icons/juanestebanagudelo.svg
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: ZN64NBCAYG
+  index_name: basically-basic
+  search_only_api_key: 0ad952b1de6ea0aa03b5c6a658c5a92e
+  powered_by: true # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
+  strict_filters: false
+  strict_variables: false
 
 # Build settings
-theme: minima
-plugins:
+markdown: kramdown
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+#theme: jekyll-theme-basically-basic
+
+plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
-minima:
-  skin: dark
-  nav_pages:
-    - cv.md
-  date_format: "%Y-%m-%d"
-  social_links:
-    - url: "https://github.com/JuanEstebanAgudelo"
-      title: JuanEstebanAgudelo
-      icon: github
-    - url: "https://gitlab.com/JuanEstebanAgudelo"
-      title: JuanEstebanAgudelo
-      icon: gitlab
-    - url: "https://www.linkedin.com/in/juan-esteban-agudelo-agudelo-4ab1473b"
-      title: juan-esteban-agudelo-agudelo-4ab1473b
-      icon: linkedin
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -66,3 +82,26 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      read_time: true
